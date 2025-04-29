@@ -104,3 +104,37 @@ h1 {
   background-color: rgba(0, 0, 0, 0.5); /* Highlight on hover */
   border-radius: 50%;
 }
+
+/* Make the nav links horizontal */
+.nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0; /* optional: adds space above and below */
+}
+
+/* Style for each nav item */
+.nav-list li {
+  margin: 0 15px; /* Space between links */
+}
+
+/* Style for the nav links */
+.nav-list li a {
+  font-family: "Century Gothic", sans-serif;
+  font-size: 20px;
+  color: blue;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+/* Highlight active page */
+.nav-list li a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Hover effect */
+.nav-list li a:hover {
+  color: darkblue;
+}
